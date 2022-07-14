@@ -10,5 +10,5 @@ RUN npm ci
 
 # Bundle app source
 COPY . .
-EXPOSE 8000
+EXPOSE 8400
 CMD [ "npm", "run", "prod" ]
