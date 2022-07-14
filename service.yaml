@@ -8,9 +8,9 @@ metadata:
   selfLink: /api/v1/namespaces/default/services/ducta11-kubernetes-udagram-api-user-svc
 spec:
   ports:
-  - port: 8000
+  - port: 8400
     protocol: TCP
-    targetPort: 8000
+    targetPort: 8400
   selector:
     app: ducta11-kubernetes-udagram-api-user
   sessionAffinity: None
