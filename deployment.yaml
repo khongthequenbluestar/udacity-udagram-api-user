@@ -18,4 +18,4 @@ spec:
       - name: udacity-udagram-api-user
         image: khongthequenbluestar/udacity-udagram-api-user
         ports:
-        - containerPort: 8000
+        - containerPort: 8400
