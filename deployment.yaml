@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ducta11-kubernetes-udagram-api-user
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: ducta11-kubernetes-udagram-api-user
