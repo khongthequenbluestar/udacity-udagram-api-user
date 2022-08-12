@@ -17,6 +17,13 @@ spec:
       containers:
       - name: udacity-udagram-api-user
         image: khongthequenbluestar/udacity-udagram-api-user:latest
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "1048Mi"
+            cpu: "500m"
         ports:
         - containerPort: 8400
         env:
